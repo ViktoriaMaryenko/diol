@@ -98,3 +98,30 @@ h1 {
  .sphere:hover {
 	border: 2px solid #ff4343;
 }
+
+
+/*Продукты товаров*/
+
+.product__element {
+width: 192px;
+height: 350px;
+border: 1px solid #d0dbe6;
+border-radius: 8px;
+}
+
+.product__name {
+	color: #0093ca;
+	font-family: "Neo Sans Pro";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	text-decoration: underline;
+}
+
+.product__description {
+color: #494949;
+font-family: "Neo Sans Pro";
+font-size: 13px;
+font-weight: 400;
+line-height: 18px;
+}
