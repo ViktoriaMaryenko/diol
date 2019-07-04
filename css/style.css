@@ -92,12 +92,12 @@ h1 {
 
 .sphere {
 	height: 50px;
-  width: 20px;
-  border-radius: 50%;
-  text-align: center;
-  vertical-align: middle;
-  position: relative;
-  display: inline-block;
+	width: 20px;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	display: inline-block;
 
 
 }
@@ -114,14 +114,14 @@ h1 {
 	line-height: 65px;
 }
 
-.checkbox input {
+#product__group {
 	width: 18px;
 	height: 18px;
 	border: 1px solid #bdcbd5;
 	
 }
 
-.checkbox:checked {
+#product__group:checked {
 	background: red;
 }
 
