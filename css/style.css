@@ -31,7 +31,7 @@ li a:hover{
 }
 
 .breadcrumb li:first-of-type::after, .breadcrumb li:last-of-type::after {
-    content: "";
+  content: "";
 }
 
 
@@ -52,6 +52,7 @@ h1 {
 	border: 2px solid #e5f0fb;
 	border-radius: 12px;
 	background: #eef8ff; 
+	display: flex;
 }
 
 .text_color {
@@ -105,14 +106,49 @@ h1 {
 	border: 2px solid #ff4343;
 }
 
+.checkbox {
+	color: #4c4c4c;
+	font-family: "Neo Sans Pro";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 65px;
+}
 
+.checkbox input {
+	width: 18px;
+	height: 18px;
+	border: 1px solid #bdcbd5;
+	
+}
+
+.checkbox:checked {
+	background: red;
+}
+
+
+.price > p{
+	color: #4c4c4c;
+font-family: "Neo Sans Pro";
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+}
+
+ .price__color{
+	color: #ff0000;
+	border-bottom: 1px dotted red;
+}
+
+.price__color:hover {
+	border-bottom: none;
+}
 /*Продукты товаров*/
 
 .product__element {
-width: 192px;
-height: 350px;
-border: 1px solid #d0dbe6;
-border-radius: 8px;
+	width: 192px;
+	height: 350px;
+	border: 1px solid #d0dbe6;
+	border-radius: 8px;
 }
 
 .product__name {
