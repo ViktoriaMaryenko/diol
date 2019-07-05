@@ -1,0 +1,207 @@
+*body {
+	width: 960px;
+}
+
+.breadcrumb {
+	color: #939ca2;
+	font-family: "Myriad Pro";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+	list-style: none;
+}
+
+.breadcrumb li { 
+	display: inline;
+ }
+
+.breadcrumb a {
+	text-decoration: underline;
+}
+
+li a:hover{
+	text-decoration: none;
+}
+
+.breadcrumb li::after {
+  content: '—';
+  padding: 0 5px;
+  color: black;
+	line-height: inherit;
+}
+
+.breadcrumb li:first-of-type::after, .breadcrumb li:last-of-type::after {
+  content: "";
+}
+
+
+
+h1 {
+	color: #222222;
+	font-family: "Neo Sans Pro";
+	font-size: 28px;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+/* filter*/
+
+.filter {
+	width: 960px;
+	height: 50px;
+	border: 2px solid #e5f0fb;
+	border-radius: 12px;
+	background: #eef8ff; 
+	display: flex;
+}
+
+.text_color {
+	color:#4c4c4c;
+	font-family: "Neo Sans Pro";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.line {
+	border-right: 1px solid #ccc; 
+	height: 23px;
+}
+
+.red{
+	background-color: #e30013;
+}
+.black{
+	background-color: #3b3b3b;
+}
+.yellow{
+	background-color: #e3c400;
+}
+.white{
+	background-color: #ffffff;
+}
+.green{
+	background-color: #76e300;
+}
+.pink{
+	background-color: #e300a0;
+}
+.orange {
+	background-color: #e37000;
+}
+
+.sphere {
+	height: 50px;
+	width: 20px;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	display: inline-block;
+
+
+}
+
+ .sphere:hover {
+	border: 2px solid #ff4343;
+}
+
+
+
+/* checkbox */
+
+.checkbox {
+	line-height: 65px;
+}
+
+#product__group {
+	width: 18px;
+	height: 18px;
+	border: 1px solid #bdcbd5;
+	
+}
+
+
+#product__group:checked {
+	background: red;
+}
+
+label{
+	color: #4c4c4c;
+	font-family: "Neo Sans Pro";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	
+}
+
+/* price */
+.price > p{
+	color: #4c4c4c;
+	font-family: "Neo Sans Pro";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 40px;
+}
+
+ .price__color{
+	color: #ff0000;
+	border-bottom: 1px dotted red;
+}
+
+.price__color:hover {
+	border-bottom: none;
+}
+/*Продукты товаров*/
+
+.product__element {
+	width: 192px;
+	height: 350px;
+	border: 1px solid #d0dbe6;
+	border-radius: 8px;
+}
+
+.product__name {
+	color: #0093ca;
+	font-family: "Neo Sans Pro";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	text-decoration: underline;
+	
+}
+
+.product__description {
+color: #494949;
+font-family: "Neo Sans Pro";
+font-size: 13px;
+font-weight: 400;
+line-height: 18px;
+width: 119px;
+height: 50px;
+
+}
+
+/* оформление цены */
+
+.product__list > .product__element .price__value:after {
+	content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    height: .1rem;
+	background: #ff090b;
+}
+
+/* footer */
+
+.navigation {
+width: 960px;
+	height: 50px;
+	border: 2px solid #e5f0fb;
+	border-radius: 12px;
+	background: #eef8ff; 
+	display: flex;
+}
